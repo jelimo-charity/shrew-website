@@ -118,3 +118,10 @@ button:hover{
     /* justify-content: center; */
 
 }
+@media(max-width: 600px){
+    .perDetails{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
